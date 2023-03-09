@@ -1,0 +1,29 @@
+{% load static %}
+<html>
+    <head>
+
+
+        <title>Dashboard</title>
+
+        <link rel="stylesheet" type="text/css" href="https://bootswatch.com/5/morph/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+
+
+    </head>
+    <br>
+    <br>
+
+<div class="container bg-white shadow-md p-5 form-layout">
+
+    <h1>Dashboard</h1>
+    <br>
+    <a href="{%url 'user-logout' %}">Logout</a>
+
+</div>
+
+
+<script src="{% static 'js/app.js' %}"></script>
+
+</html>
